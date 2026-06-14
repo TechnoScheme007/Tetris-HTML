@@ -1,8 +1,8 @@
 # Tetris
 
-A polished, classic-faithful Tetris built as a **single HTML file** — no build step, no dependencies, no framework. Open it in a browser and play. Drop it on GitHub Pages and share a link.
+A polished, classic-faithful Tetris built as a **single HTML file** - no build step, no dependencies, no framework. Open it in a browser and play.
 
-It implements the mechanics people expect from modern guideline Tetris: a 7-bag randomizer, ghost piece, hold queue, wall kicks, lock delay, T-spin detection, combos, back-to-back bonuses, and 15 accelerating levels — wrapped in a clean neon presentation with particle effects and clear-type callouts.
+It implements the mechanics people expect from modern guideline Tetris: a 7-bag randomizer, ghost piece, hold queue, wall kicks, lock delay, T-spin detection, combos, back-to-back bonuses, and 15 accelerating levels - wrapped in a clean neon presentation with particle effects and clear-type callouts.
 
 ## Features
 
@@ -11,7 +11,7 @@ It implements the mechanics people expect from modern guideline Tetris: a 7-bag 
 - **Ghost piece** showing exactly where a hard drop will land.
 - **Hold / swap** slot and a **3-deep Next queue**.
 - **7-bag randomizer** so you never get long droughts of the same piece.
-- **DAS / ARR movement** — hold left or right for smooth auto-shift.
+- **DAS / ARR movement** - hold left or right for smooth auto-shift.
 - **Wall kicks** so pieces rotate against walls and the floor, plus a short **lock delay** for last-moment nudges.
 - **Guideline-style scoring** with **T-spin detection** (3-corner rule), **combos**, and **back-to-back** bonuses.
 - **Visual juice:** clear-type callouts (Single / Double / Triple / Tetris / T-Spin), combo and back-to-back banners, floating point popups, particle bursts, row flashes, a level-up flash, and a brief screen shake on big clears.
@@ -67,14 +67,14 @@ Line clears are multiplied by your current level:
 
 On top of the base:
 
-- **Back-to-back** — chaining "difficult" clears (a Tetris or any T-spin line clear) multiplies the base by **1.5×**.
-- **Combo** — clearing lines on consecutive pieces adds **50 × combo × level**.
-- **Soft drop** — `+1` per cell.
-- **Hard drop** — `+2` per cell.
+- **Back-to-back** - chaining "difficult" clears (a Tetris or any T-spin line clear) multiplies the base by **1.5×**.
+- **Combo** - clearing lines on consecutive pieces adds **50 × combo × level**.
+- **Soft drop** - `+1` per cell.
+- **Hard drop** - `+2` per cell.
 
 ## Levels and goal
 
-You start at level 1 and gain a level every 10 lines, up to level 15. Each level drops faster than the last. Clearing all 15 levels' worth of lines (150 total) shows a win screen — and you can keep going endlessly at max speed.
+You start at level 1 and gain a level every 10 lines, up to level 15. Each level drops faster than the last. Clearing all 15 levels' worth of lines (150 total) shows a win screen - and you can keep going endlessly at max speed.
 
 ## Project structure
 
@@ -101,7 +101,7 @@ The tunable values are grouped as constants near the top of the script in `tetri
 | `SOFT_INTERVAL` | Soft-drop speed |
 | `DAS`, `ARR` | Auto-shift delay and repeat rate |
 
-Want it faster, slower, taller, or a different number of levels? Edit those values — for example, swap in your own `SPEEDS` array to redesign the difficulty curve. Piece colors live in the `PIECES` object.
+Want it faster, slower, taller, or a different number of levels? Edit those values - for example, swap in your own `SPEEDS` array to redesign the difficulty curve. Piece colors live in the `PIECES` object.
 
 ## Browser support
 
@@ -109,7 +109,7 @@ Works in any modern desktop or mobile browser with `<canvas>` support (Chrome, F
 
 ## Contributing
 
-Issues and pull requests are welcome. Because it's a single file, changes are easy to review — keep additions dependency-free so the "open and play" promise holds.
+Issues and pull requests are welcome. Because it's a single file, changes are easy to review - keep additions dependency-free so the "open and play" promise holds.
 
 Ideas that fit the project:
 
